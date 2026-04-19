@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      "minecraft:potion",
+      "minecraft:milk_bucket",
+      "minecraft:sulfur"
+  ],
+  "result": {
+    "id": "minecraft:splash_potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 0,
+        "custom_name": "cleanser",
+        "custom_effects": [
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 64,
+            "duration": 40
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

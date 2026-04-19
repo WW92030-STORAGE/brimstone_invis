@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      "minecraft:potion",
+      "minecraft:golden_carrot",
+      "minecraft:sulfur"
+  ],
+  "result": {
+    "id": "minecraft:splash_potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 16777215,
+        "custom_name": "invis",
+        "custom_effects": [
+          {
+            "id": "minecraft:night_vision",
+            "amplifier": 64,
+            "duration": 40
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}
