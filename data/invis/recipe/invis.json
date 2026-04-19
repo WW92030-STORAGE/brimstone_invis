@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
       "minecraft:potion",
-      "minecraft:golden_carrot",
+      "minecraft:water_bucket",
       "minecraft:sulfur"
   ],
   "result": {
